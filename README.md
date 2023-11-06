@@ -26,8 +26,9 @@
 LINK  
 
 ## Building Meshtastic Firmware
-目前已確認Meshtastic 2.1.11能成功建置和正常使用  
-Meshtastic 2.2.x之後版本，還尚未測試  
+> 目前已確認Meshtastic 2.1.11能成功建置和正常使用  
+Meshtastic 2.2.x之後版本，還尚未測試
+
 LINK  
 
 
