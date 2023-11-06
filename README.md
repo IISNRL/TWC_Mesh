@@ -4,6 +4,7 @@
 > 這是適用 Meshtastic 專案的硬體設計  
 主旨在避免使用中製通訊晶片
 
+![image](https://github.com/IISNRL/PureLoRaMesh/blob/main/image/old_hw.jpg)
 
 ## 零件表:
 * Adafruit nRF52840 Feather
@@ -14,6 +15,10 @@
 * 90度 SMA Connector 
 * 923Mhz天線
 * 適量排母
+
+## PCB設計
+
+![image](https://github.com/IISNRL/PureLoRaMesh/blob/main/image/new_pcb.png)
 
 
 ## Meshtastic使用教學:
