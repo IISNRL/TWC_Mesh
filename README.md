@@ -40,10 +40,10 @@ Thanks to the open-source community for continuous inspiration and support.
 Special thanks to volunteers and contributors who dedicate their time to the project.
 
 ## Contact
-Project Lead: [Your Name] - email@example.com
-Project URL: https://github.com/yourproject/twc
+- Project Lead: [Your Name] - email@example.com
+- Project URL: [https://github.com/IISNRL/Together_We_Connect](https://github.com/IISNRL/Together_We_Connect)
 
 ## Additional Resources
-Documentation
-Wiki
-FAQ
+- Documentation
+- Wiki
+- FAQ
