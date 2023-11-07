@@ -1,6 +1,6 @@
 # Together We Connect (TWC)
 
-![TWC Scenario](TWC_scenario_by_DALLE3.png)
+![TWC Scenario](TWC_scenario_by_DALLE3.jpg)
 
 ## Motivation
 
