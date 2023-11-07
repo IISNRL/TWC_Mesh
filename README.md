@@ -15,9 +15,9 @@ Originating from Taiwan, amidst escalating geopolitical tensions and cross-strai
 
 The project encompasses several dimensions:
 
-1. **Hardware Development**: We focus on developing open-source hardware based on source chips that meet the specific needs of this project.
-2. **Scenario Simulation**: Different application scenarios are provided, along with the development of various training scripts.
-3. **Tool Development**: We develop tools required for different application scenarios.
+1. [**Hardware Development**](hardware/): We focus on developing open-source hardware based on source chips that meet the specific needs of this project.
+2. [**Scenario Simulation**](scenarioes): Different application scenarios are provided, along with the development of various training scripts.
+3. [**Tool Development**](tools): We develop tools required for different application scenarios.
 
 ## Getting Started
 
