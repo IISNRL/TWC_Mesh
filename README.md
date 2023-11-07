@@ -1,5 +1,7 @@
 # Together We Connect (TWC)
 
+![TWC Scenario](TWC_scenario_by_DALLE3.png)
+
 ## Motivation
 
 In times of emergency, such as natural disasters or conflicts, existing communication infrastructures are highly susceptible to failure. There is an urgent need to establish a backup communication system swiftly. Two primary approaches can be adopted:
