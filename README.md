@@ -35,7 +35,7 @@ The project encompasses several dimensions:
 We welcome contributions from the community. Please read our CONTRIBUTING.md file for details on how to submit pull requests, the process for submitting bugs, and other ways you can contribute to the project.
 
 ## License
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
 
 ## Acknowledgments
 Thanks to the open-source community for continuous inspiration and support.
