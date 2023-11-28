@@ -7,6 +7,11 @@ This is a open-source project that combines hardware and software to create a lo
 This project primarily uses LoRa to enable devices to communicate over distances much greater than Wi-Fi or Bluetooth.
 
 Our hardware design is a variant of "Meshtestic"
+```
+  +-------------+   Bluetooth   +-----------+    LoRa Signal    +-----------+   Bluetooth   +-------------+  
+  | Smart Phone | <===========> | Mesh node | <===============> | Mesh node | <===========> | Smart Phone |  
+  +-------------+               + ----------+                   +-----------+               +-------------+  
+```
 
 ## Features
 
