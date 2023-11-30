@@ -6,11 +6,12 @@
 
 ## Overview
 
-This is a open-source project that combines hardware and software to create a low-cost, long-range, off-grid communication network. 
+This project is an open-source initiative that integrates hardware and software to establish a cost-effective, long-distance, off-grid communication network.
 
-This project primarily uses LoRa to enable devices to communicate over distances much greater than Wi-Fi or Bluetooth.
+At the core of this project is the utilization of LoRa technology, which facilitates device communication over significantly longer distances than what Wi-Fi or Bluetooth can offer.
 
-Our hardware design is a variant of "Meshtestic"
+The hardware component of our project is a modified version of the "Meshtastic" design, tailored to enhance performance and reliability.
+
 ```
   +-------------+   Bluetooth   +-----------+    LoRa Signal    +-----------+   Bluetooth   +-------------+  
   | Smart Phone | <===========> | Mesh node | <===============> | Mesh node | <===========> | Smart Phone |  
@@ -21,26 +22,21 @@ Our hardware design is a variant of "Meshtestic"
 
 Key features of this project:
 
-* **Long Range Communication**:  
-  Leveraging LoRa technology, it allows devices to communicate over several kilometers, depending on the environment and hardware used.
 
-* **Low Power Consumption**:  
-  Designed for efficiency, it's suitable for battery-powered devices, making it ideal for outdoor and remote applications.
+* **Long-Range Communication**: Utilizing LoRa technology, this project enables device communication over several kilometers, with the range varying based on environmental conditions and hardware specifications.
 
-* **Mesh Networking**:  
-  The devices form a mesh network, meaning each node can relay messages for others, extending the network's overall range.
+* **Low Power Consumption**: Our design prioritizes efficiency, making it ideal for battery-operated devices. This feature is particularly beneficial for outdoor and remote applications where power availability is limited.
 
-* **Open-Source**: 
-  Both the software and hardware designs are open-source, allowing anyone to contribute, modify, or build their own devices.
+* **Mesh Networking**: Devices within this network form a mesh topology, where each node can relay messages for others. This capability significantly extends the network's overall reach.
 
-* **GPS Integration**:  
-  Our hardware devices come with GPS, enabling location sharing and tracking functionalities.
+* **Open-Source Philosophy**: We embrace an open-source approach for both software and hardware components. This ethos encourages community contribution, modification, and the creation of bespoke devices by enthusiasts.
 
-* **Versatility**:  
-  It can be used for various applications, including hiking, camping, or during emergencies, especially in areas without cell service.
+* **GPS Integration**: Equipped with GPS functionality, our hardware devices offer location sharing and tracking capabilities, enhancing the utility of the system in various scenarios.
 
-* **Customizable and Extensible**:  
-  Being open-source, it allows developers and hobbyists to customize and extend its functionalities.
+* **Versatility in Application**: The system is versatile, catering to a wide range of uses such as hiking, camping, and emergency situations, particularly in areas devoid of cellular connectivity.
+
+* **Customizability and Extensibility**: As an open-source project, it provides ample opportunities for developers and hobbyists to tailor and expand its features, fostering innovation and personalized solutions.
+
 
 ## Hardware Components
 
@@ -108,15 +104,17 @@ see reference link for detailed steps.
 
 ## Contributing
 
-We welcome contributions from the community. Please read our CONTRIBUTING.md file for details on how to submit pull requests, the process for submitting bugs, and other ways you can contribute to the project.
+We welcome contributions from the community. Please read our [CONTRIBUTING.md](../CONTRIBUTING.md) file for details on how to submit pull requests, the process for submitting bugs, and other ways you can contribute to the project.
 
 ## License
 
-This project is licensed under the MIT License - see the LICENSE.md file for details.
+This project is licensed under the MIT License - see the [LICENSE.md](../LICENSE.md) file for details.
+
 
 ## Acknowledgements
 
 Thanks to the open-source community for continuous inspiration and support. Special thanks to volunteers and contributors who dedicate their time to the project.
+
 
 ## Contact
 
