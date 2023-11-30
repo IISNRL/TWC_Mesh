@@ -1,4 +1,4 @@
-# Together We Connect (TWC)
+# TWC_Mesh: Together We Connect Mesh
 
 ![TWC Scenario](TWC_scenario_by_DALLE3.jpg)
 
