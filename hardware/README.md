@@ -1,4 +1,4 @@
-# Project Name: Citizen_Mesh
+# Citizen_Mesh
 
 <p align="center">
 <img src="https://github.com/IISNRL/PureLoRaMesh/blob/main/image/new_hw.png" width="350">
