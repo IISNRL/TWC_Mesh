@@ -18,7 +18,7 @@ Originating from Taiwan, amidst escalating geopolitical tensions and cross-strai
 The project encompasses several dimensions:
 
 1. [**Hardware Development**](hardware/): We focus on developing open-source hardware based on source chips that meet the specific needs of this project.
-2. **Scenario Simulation**: Different application scenarios are provided, along with the development of various training scripts.
+2. **Application Scenarios**: Different application scenarios are provided, along with the development of various training scripts.
    - [Meshtastic_Messenger](documents/Meshtastic_Messenger.md): off-grid messenger via Meshtastic
    - [Tactical Networking](documents/Tactical_Networking.md): situation awareness app via tactical networking
 4. [**Tool Development**](tools): We develop tools required for different application scenarios.
