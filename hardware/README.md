@@ -102,24 +102,4 @@ see reference link for detailed steps.
 [User guide](https://)
 
 
-## Contributing
-
-We welcome contributions from the community. Please read our [CONTRIBUTING.md](../CONTRIBUTING.md) file for details on how to submit pull requests, the process for submitting bugs, and other ways you can contribute to the project.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE.md](../LICENSE.md) file for details.
-
-
-## Acknowledgements
-
-Thanks to the open-source community for continuous inspiration and support. Special thanks to volunteers and contributors who dedicate their time to the project.
-
-
-## Contact
-
-
-* Project Lead: [Your Name] - email@example.com
-* Project URL: https://github.com/IISNRL/Together_We_Connect
-
 
