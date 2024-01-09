@@ -56,6 +56,7 @@ Components used in this project:
 
 
 ## PCB Layout
+The top image is Citizen_Mesh_V1_long, and the bottom one is Citizen_Mesh_V1_short.   
 
 ![image](https://github.com/IISNRL/PureLoRaMesh/blob/main/image/new_pcb.png)
 
