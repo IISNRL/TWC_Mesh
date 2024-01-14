@@ -19,6 +19,8 @@
 
 1. [**硬體開發**](hardware/)：我們專注於開發基於開源晶片的開源硬體，以滿足本計畫的特定需求。
 2. [**情境模擬**](scenarioes)：提供不同的應用情境，並開發各種訓練腳本。
+    - [Meshtastic Messenger](documents/Meshtastic_Messenger.md): off-grid messenger via Meshtastic
+    - [Tactical Networking](documents/Tactical_Networking.md): situation awareness app via tactical networking
 3. [**工具開發**](tools)：我們開發適用於不同應用情境的工具。
 
 ## 開始使用
@@ -40,11 +42,6 @@
 特別感謝那些投入時間於本計畫的志工和貢獻者。
 
 ## 聯繫方式
-- 項目負責人：[您的名字] - email@example.com
-- 項目網址：[https://github.com/IISNRL/Together_We_Connect](https://github.com/IISNRL/Together_We_Connect)
-
-## 附加資源
-- 文件
-- 維基
-- 常見問題解答
+- 項目負責人：Fu-Hsiang Sean Ching (sean3381212@gmail.com) & Ling-Jyh Chen (cclljj@google.com)
+- 項目網址：[https://github.com/IISNRL/TWC_Mesh](https://github.com/IISNRL/TWC_Mesh)
 
