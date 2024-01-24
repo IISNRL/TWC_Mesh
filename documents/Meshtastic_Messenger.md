@@ -173,6 +173,49 @@ The link budget used by these calculations assumes a transmit power of 17dBm and
 
 ## Range Tests
 
+### Current Ground Record: 254km
+
+- **Range:** 254km (158 miles)
+- **Record Holders:** _kboxlabs_
+- **Source:** [Meshtastic Discourse](https://meshtastic.discourse.group/t/practical-range-test-results/692/137)
+
+#### Modem Settings:
+
+Default: `Long_Fast`
+- **Frequency:** 915MHz
+- **Bandwidth:** 250
+- **Spread Factor:** 11
+- **Coding Rate:** 4/8
+
+#### Node A
+
+- **Device:** [RAK4631 Core](https://meshtastic.org/docs/hardware/devices/rak/core-module)  with [RAK 5005-O Base Board](https://meshtastic.org/docs/hardware/devices/rak/base-board)
+- **Firmware Version:** 2.1.17
+- **Antenna:** 902-928MHz 5.8 dBi Slinkdsco Outdoor 
+
+#### Node B
+
+- **Device:** [RAK4631 Core](https://meshtastic.org/docs/hardware/devices/rak/core-module)  with [RAK 19003 Mini Base Board](https://meshtastic.org/docs/hardware/devices/rak/base-board)
+- **Firmware Version:** 2.1.18
+- **Antenna:** Standard LoRa 915MHz 60mm 2dBi Omnidirectional
+
+
+Sending Node  
+<p align="center">
+<img src="https://meshtastic.org/img/records/kboxlabs_sender.png" width="600">
+</p>
+
+Receiving Node  
+<p align="center">
+<img src="https://meshtastic.org/img/records/kboxlabs_receiver.png" width="600">
+</p>
+
+Geographic Locations  
+<p align="center">
+<img src="https://meshtastic.org/img/records/kboxlabs_map.png" width="600">
+</p>
+
+
 
 ## Usage
 
