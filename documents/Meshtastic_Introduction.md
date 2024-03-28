@@ -16,8 +16,9 @@ The goal of this project is to build a reliable communications network that can 
 
 
 
-## Hardware selection
+## Hardware selection  
 
+Choosing the right hardware is crucial for your Meshtastic project. The platform supports various hardware options, each with its unique features and capabilities.   
 Currently, there are several hardware options available for this project, including the **ESP32** series, **NRF52** series, **RP2040**, and others.   
 
 **ESP32**  
@@ -29,7 +30,7 @@ The ESP32 chip is older and consumes more power than the nRF52 chip, but is equi
 * Nano G1
 * Station G1
 * Heltec V3 and Wireless Stick Lite V3
-* RAK11200 Core module for RAK WisBlock modular boards
+* RAK11200 Core module for RAK WisBlock modular boards  
 
 **nRF52**
 
@@ -53,6 +54,11 @@ The software can also run on a native Linux machine thanks to the [Portduino fra
 
 See more on [Link](https://meshtastic.org/docs/hardware/devices/linux-native-hardware/)  
 
+## Choosing Your Device
+
+You can opt for commercially available devices or build a DIY kit from a list of components.   
+Eeach platform has it's own pros and cons, while ESP32 Series might comes cheaper and have WiFi connectivity, but it's more power hungry than the nRF52 series.   
+For those interested in DIY, a step-by-step guide can be found [here]().
 
 
 It is important to note that you need to select the **appropriate frequency** according to the radio regulations of different countries.   
