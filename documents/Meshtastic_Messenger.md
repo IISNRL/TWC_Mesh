@@ -47,6 +47,14 @@ The RP2040 is a dual-core ARM chip developed by Raspberry Pi. Supported RP2040 d
 
 You have the option to purchase some devices that are already commercialized, or you can DIY a set based on a provided list of components.   
 
+**Linux**
+
+The software can also run on a native Linux machine thanks to the [Portduino framework](https://github.com/geeksville/framework-portduino).  
+
+See more on [Link](https://meshtastic.org/docs/hardware/devices/linux-native-hardware/)  
+
+
+
 It is important to note that you need to select the **appropriate frequency** according to the radio regulations of different countries.   
 
 ## Radio overview
@@ -202,17 +210,17 @@ Default: `Long_Fast`
 
 Sending Node  
 <p align="center">
-<img src="https://meshtastic.org/img/records/kboxlabs_sender.png" width="600">
+<img src="https://meshtastic.org/img/records/kboxlabs_sender.webp" width="600"> 
 </p>
 
 Receiving Node  
 <p align="center">
-<img src="https://meshtastic.org/img/records/kboxlabs_receiver.png" width="600">
+<img src="https://meshtastic.org/img/records/kboxlabs_receiver.webp" width="600">
 </p>
 
 Geographic Locations  
 <p align="center">
-<img src="https://meshtastic.org/img/records/kboxlabs_map.png" width="600">
+<img src="https://meshtastic.org/img/records/kboxlabs_map.webp" width="600">
 </p>
 
 
