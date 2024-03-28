@@ -223,10 +223,3 @@ Geographic Locations
 <img src="https://meshtastic.org/img/records/kboxlabs_map.webp" width="600">
 </p>
 
-
-
-## Usage
-
-### Android 
-
-### Apple / iOS
