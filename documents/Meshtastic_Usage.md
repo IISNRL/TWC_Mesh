@@ -116,4 +116,77 @@ After you select the region, the Node device will automatically reboots and star
 
 ## Channel setting  
 
+To communicate with other device, you have to be on the same channel.  
+The default channel is ```#LongFast-I (Long range / Fast)```  
+
+You can either **join an existing channel** or **create your own**.  
+
+### Join an existing channel
+
+There are two ways to join an exsisting channel:  
+1. By scanning the QR code from another user  
+   Navigate to the Channel tab and click ```Scan```.
+<p align="center">
+<img src="https://github.com/IISNRL/TWC_Mesh/assets/11376362/9cc20a45-a78a-47a3-9815-df9779340d37" width="400">
+</p>  
+  This will open your camera and set your device according to the QR code.   
+  After a short reboot, you should be able to talk to the other device on the given channel.   
+
+2. Channel url shared from a file or link  
+  Sometimes the channel information may come in link/file format, you can click on the file or link and select "Open with Meshtastic".   
+  This will also set your device accordingly.
+
+### Create a new channel
+
+If you want to create your own channel, navigate to the Channel tab and click on the ```Channel Name``` section.  
+This will open a parameter page where you can customize your channel.  
+
+<p align="center">
+<img src="https://github.com/IISNRL/TWC_Mesh/assets/11376362/86d79b30-e7d1-4266-ba84-4c6eba8aedea" width="400">
+</p>  
+
+You can create up to 8 channels for your device, 0 as the primary cahnnel 1~7 as secondary channel.  
+
+> [!NOTE] 
+> Setting the same Name and Options directly doesn't work as there are other radio settings (like the unique pre-shared key)  
+> encoded in the QR code or link.
+
 ## Communicate!  
+
+Once every thing is set, yous can start sending message between devices.  
+Just like other message system, Meshtastic support group chat and direct messages.   
+
+<p align="center">
+<img src="https://github.com/IISNRL/TWC_Mesh/assets/11376362/84b99091-8869-4bb6-9eab-926706459720" width="400">
+</p> 
+
+
+## Map
+
+If your device has GPS or provides location information, and you enable the option  
+You can see any active mesh node with a known location on the map.  
+
+<p align="center">
+<img src="https://github.com/IISNRL/TWC_Mesh/assets/11376362/e34c5d00-c72b-45aa-be1a-f9f02d553430" width="400">
+</p>
+
+
+## Conclusion
+
+Well done on setting up your Meshtastic network!  
+You’ve taken crucial steps towards creating a versatile communication system that operates beyond conventional networks.  
+
+Meshtastic is more than a communication platform; it's part of a dynamic, open-source project that evolves with its community.  
+As you explore further and experiment with your setup, remember that your experiences and feedback contribute to the growth and improvement of Meshtastic.  
+
+We encourage you to remain engaged with the Meshtastic community, share your insights, and continue to innovate.  
+Your involvement not only enriches your own experience but also helps shape the future of Meshtastic for everyone.  
+
+
+## Source
+
+[Meshtastic](https://meshtastic.org)  
+[Installation guide](https://meshtastic.org/docs/software/android/installation/)  
+[Application Usage](https://meshtastic.org/docs/software/android/usage/)  
+
+
