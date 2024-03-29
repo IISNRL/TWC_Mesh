@@ -199,3 +199,11 @@ However, LoRa is still affected by buildings and terrain, its penetration is lim
 But for a battery-operated device with about 120 milliwatts of transmitting power, we're happy with the performance.  
 
 
+## Conclution 
+
+By creating our Meshtastic device, we were able to design a solution that was perfectly tailored to our needs and provide valuable insights to the broader community.  
+Achieving a communication range of over 4.5 km is a real demonstration of the potential of LoRa technology and the care taken to optimize both hardware and software.  
+
+We look forward to refining our design, exploring new possibilities, and contributing to the collective knowledge of the community.   
+
+Thank you for your interest in the development of the TWC_Mesh device!
