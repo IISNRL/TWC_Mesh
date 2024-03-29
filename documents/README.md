@@ -6,7 +6,7 @@ Here is a brief guide to each page in this project:
 * Provides a overview of the Meshtastic project and its capabilities.
 * Describes how devices form a mesh network, detailing essential elements such as hardware selection, frequency considerations, radio setup, and findings from range tests.  
 
-[Meshtastic_usage]() :  
+[Meshtastic_Usage](https://github.com/IISNRL/TWC_Mesh/blob/main/documents/Meshtastic_Usage.md) :  
 * Shows a step by step guide to getting started with Meshtastic, including device preparation and initial setup.  
 * Walks you through the steps to configure your device, ensuring you're ready to make the most out of Meshtastic's features.  
 
