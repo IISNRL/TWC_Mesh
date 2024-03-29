@@ -10,7 +10,7 @@ Here is a brief guide to each page in this project:
 * Shows a step by step guide to getting started with Meshtastic, including device preparation and initial setup.  
 * Walks you through the steps to configure your device, ensuring you're ready to make the most out of Meshtastic's features.  
 
-[TWC_Mesh device]() :  
+[TWC_Mesh device](https://github.com/IISNRL/TWC_Mesh/blob/main/documents/TWC_Mesh_device.md) :  
 * Dives into the specifications and components of our customized Meshtastic device.  
 * Explains the unique features and benefits of using our device in a Meshtastic network.      
 
@@ -18,10 +18,10 @@ Here is a brief guide to each page in this project:
 * Explores the integration of LoRa networks with other platforms to create robust tactical communications systems.  
 * Demonstrates the practical applications and benefits of such integrations in real-world scenarios.  
 
-[Field Try and tests]() :   
+[Field Try and tests](https://github.com/IISNRL/TWC_Mesh/blob/main/documents/Field_Try_and_tests.md) :   
 * Describes our hands-on experience with Meshtastic in field trials and testing.
 * Presents data, insights, and lessons learned from deploying Meshtastic devices in various environments and configurations.
 
-[Scenario disscussion]() :  
+[Scenario disscussion](https://github.com/IISNRL/TWC_Mesh/blob/main/documents/Scenario_disscussion.md) :  
 * Encourages conversations about potential use cases and scenarios for the effective application of Meshtastic.
 * Enhance the exchange of ideas and experiences within the community to promote innovative uses of Meshtastic technology.
