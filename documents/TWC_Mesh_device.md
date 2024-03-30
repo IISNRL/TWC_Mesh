@@ -1,6 +1,6 @@
 # TWC_Mesh Device
 
-This article presents the specifications and elements of the Meshtastic device tailored by this study. 
+This article describes the creation of the TWC-Mesh device, along with its characteristics and components.
 
 <p align="center">
 <img src="https://github.com/IISNRL/TWC_Mesh/assets/11376362/8f376791-1270-4219-920e-9b1ffa1ac1b5" width="600">
