@@ -10,7 +10,7 @@ Here's a quick overview of each document in this project:
 - Offers a step-by-step guide to getting started with Meshtastic, including device preparation and initial configuration.
 - Guides you through configuring your device to fully leverage Meshtastic's features.
 
-## [TWC_Mesh device](https://github.com/IISNRL/TWC_Mesh/blob/main/documents/TWC_Mesh_Device.md)
+## [TWC_Mesh Device](https://github.com/IISNRL/TWC_Mesh/blob/main/documents/TWC_Mesh_device.md)
 - Focuses on the specifications and components of the customized Meshtastic device.
 - Highlights the unique features and advantages of using this device within a Meshtastic network.
 
