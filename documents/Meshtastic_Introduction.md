@@ -1,19 +1,18 @@
 # Meshtastic
 
 ![https://meshtastic.org/](https://hackmd.io/_uploads/rknfCvqba.png)
+**Project Website:** [https://meshtastic.org/](https://meshtastic.org/)
+
 
 ## Introduction  
 
-Meshtastic is an open source wireless communication project that aims to provide **long-distance**, **low-power consumption**, **self-organizing network** (mesh) communication systems. Each node can serve as a relay station for each other.   
+Meshtastic is an open-source wireless communication project focused on delivering a **long-distance**, **low-power consumption**, **self-organizing network** (mesh) communication systems. In this network, each node acts as a relay station for others, enhancing connectivity and range.
 
 <p align="center">
 <img src="https://hackmd.io/_uploads/Hkqv-XxJ6.jpg" width="600">
 </p>
 
-
-The goal of this project is to build a reliable communications network that can respond to **disasters**, **emergencies** or **remote communication** needs without relying on traditional mobile networks or the Internet.   
-
-
+Our project's mission is to establish a robust communication network designed for **disaster response**, **emergency situations**, and **remote communication** requirements, independent of conventional mobile networks or the Internet.
 
 
 ## Hardware selection  
@@ -21,32 +20,38 @@ The goal of this project is to build a reliable communications network that can 
 Choosing the right hardware is crucial for your Meshtastic project. The platform supports various hardware options, each with its unique features and capabilities.   
 Currently, there are several hardware options available for this project, including the **ESP32** series, **NRF52** series, **RP2040**, and others.   
 
+Selecting the appropriate hardware is a pivotal aspect of your Meshtastic project. The platform accommodates a diverse range of hardware choices, each distinguished by its specific features and capabilities. Presently, the project supports multiple hardware options, notably the **ESP32** series, **NRF52** series, **RP2040**, among others, offering a variety of configurations to meet different project requirements and objectives.
+
 **ESP32**  
 
-The ESP32 chip is older and consumes more power than the nRF52 chip, but is equipped with both WiFi and Bluetooth. Supported ESP32 devices include:
+The ESP32 chip, while older and less power-efficient than the nRF52 chip, boasts integrated WiFi and Bluetooth capabilities, making it a versatile choice for projects requiring these features. Supported ESP32 devices for the Meshtastic project include:
 
-* LILYGO® TTGO T-Beam (>V1.1 recommended)
-* LILYGO® TTGO Lora (>V2.1 recommended)
-* Nano G1
-* Station G1
-* Heltec V3 and Wireless Stick Lite V3
-* RAK11200 Core module for RAK WisBlock modular boards  
+* **LILYGO® TTGO T-Beam** (Version 1.1 or higher recommended)
+* **LILYGO® TTGO Lora** (Version 2.1 or higher recommended)
+* **Nano G1**
+* **Station G1**
+* **Heltec V3 and Wireless Stick Lite V3**
+* **RAK11200 Core module** for use with RAK WisBlock modular boards
 
 **nRF52**
 
-The nRF52 chip is much more power efficient than the ESP32 chip and easier to update, but is only equipped with Bluetooth. Supported nRF52 devices include:
 
-* RAK4631 Core module for RAK WisBlock modular boards
-* LILYGO® TTGO T-Echo
+The nRF52 chip stands out for its superior power efficiency compared to the ESP32 chip and its simpler update process. However, it is equipped solely with Bluetooth connectivity. Supported nRF52 devices for the Meshtastic project are:
+
+* **RAK4631 Core module** for RAK WisBlock modular boards
+* **LILYGO® TTGO T-Echo**
+
+These options cater to projects prioritizing energy efficiency and ease of maintenance while leveraging Bluetooth for communication within the Meshtastic network.
+
 
 **RP2040**
 
-The RP2040 is a dual-core ARM chip developed by Raspberry Pi. Supported RP2040 devices include:
+The RP2040, developed by Raspberry Pi, is a dual-core ARM chip known for its versatility. Supported RP2040 devices in the Meshtastic project include:
 
-* Raspberry Pi Pico + Waveshare LoRa Module (Note: Bluetooth on the Pico W is not yet supported by Meshtastic)
-* RAK11310 Core module for RAK WisBlock modular boards
+* **Raspberry Pi Pico + Waveshare LoRa Module** (Please note: Bluetooth on the Pico W is currently not supported by Meshtastic)
+* **RAK11310 Core module** for RAK WisBlock modular boards
 
-You have the option to purchase some devices that are already commercialized, or you can DIY a set based on a provided list of components.   
+Participants in the project have the flexibility to choose between purchasing commercially available devices or assembling a DIY kit based on a specified list of components. This approach allows for a wide range of participation, from those who prefer ready-made solutions to enthusiasts who enjoy customizing their setup.
 
 **Linux**
 
@@ -54,14 +59,19 @@ The software can also run on a native Linux machine thanks to the [Portduino fra
 
 See more on [Link](https://meshtastic.org/docs/hardware/devices/linux-native-hardware/)  
 
+
+The software is also compatible with native Linux machines through the use of the [Portduino framework](https://github.com/geeksville/framework-portduino), extending the flexibility and accessibility of the project to a broader range of devices and setups.
+
+For additional details, you can explore the documentation on [Linux-native hardware support](https://meshtastic.org/docs/hardware/devices/linux-native-hardware/), offering insights into how to integrate Meshtastic with Linux systems and the advantages this combination provides.
+
 ## Choosing Your Device
 
-You can opt for commercially available devices or build a DIY kit from a list of components.   
-Eeach platform has it's own pros and cons, while ESP32 Series might comes cheaper and have WiFi connectivity, but it's more power hungry than the nRF52 series.   
-For those interested in DIY, a step-by-step guide can be found [here]().
+You have the choice to go with commercially available devices or to craft a DIY kit from a provided list of components. Each platform presents its own set of advantages and drawbacks. While the ESP32 Series may be more affordable and includes WiFi connectivity, it consumes more power compared to the nRF52 series.
 
+For enthusiasts inclined towards DIY, a comprehensive step-by-step guide is available [here](), designed to walk you through assembling your own device, allowing for customization and hands-on experience with the technology.
 
-It is important to note that you need to select the **appropriate frequency** according to the radio regulations of different countries.   
+It's crucial to choose the **appropriate frequency** for your device in compliance with the radio regulations of various countries. This ensures not only the lawful operation of your Meshtastic device but also minimizes interference with other wireless communications, contributing to the overall efficiency and reliability of your network.
+
 
 ## Radio overview
 
