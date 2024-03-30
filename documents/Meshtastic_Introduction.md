@@ -236,6 +236,6 @@ Geographic Locations
 </p>
 
   
-## Source:   
-[Meshtastic](https://meshtastic.org)  
-[Range Tests](https://meshtastic.org/docs/overview/range-tests/)  
+## References:
+- [Meshtastic](https://meshtastic.org)
+- [Range Tests](https://meshtastic.org/docs/overview/range-tests/)
