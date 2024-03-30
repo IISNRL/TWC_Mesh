@@ -53,12 +53,7 @@ The RP2040, developed by Raspberry Pi, is a dual-core ARM chip known for its ver
 
 Participants in the project have the flexibility to choose between purchasing commercially available devices or assembling a DIY kit based on a specified list of components. This approach allows for a wide range of participation, from those who prefer ready-made solutions to enthusiasts who enjoy customizing their setup.
 
-**Linux**
-
-The software can also run on a native Linux machine thanks to the [Portduino framework](https://github.com/geeksville/framework-portduino).  
-
-See more on [Link](https://meshtastic.org/docs/hardware/devices/linux-native-hardware/)  
-
+**Linux**  
 
 The software is also compatible with native Linux machines through the use of the [Portduino framework](https://github.com/geeksville/framework-portduino), extending the flexibility and accessibility of the project to a broader range of devices and setups.
 
@@ -76,8 +71,8 @@ It's crucial to choose the **appropriate frequency** for your device in complian
 ## Radio overview
 
 ### Region
-Sets the **region** for your node. Default is `unset`.   
-As long as this is not set, the node screen will display a message and not transmit any packets.  
+
+Configures the **region** for your node. The default setting is `unset`. Until this parameter is defined, the node's display will show a notification and refrain from transmitting any packets.
 
 
 > [!NOTE]  
@@ -109,16 +104,15 @@ The region codes are:
 
 ### Modem Preset
 
-Default is unset which equates to `LONG_FAST`.   
-Presets are pre-defined modem settings (**Bandwidth**, **Spread Factor**, and **Coding Rate**) which influence both message speed and range.  
-The default will provide a strong mixture of speed and range, for most users.
+The default setting is unset, corresponding to `LONG_FAST`.   
+Presets are predefined configurations for modem settings (**Bandwidth**, **Spread Factor**, and **Coding Rate**) that impact the balance between message speed and range. The default setting offers a balanced mix of speed and range suitable for most users.
 
-The presets are designed to provide further options for optimizing either speed (and reduced network congestion) or range, which can be useful for two real world scenarios:
+Presets are tailored to optimize either speed (leading to reduced network congestion) or range, accommodating two common scenarios:
 
-1. A high number of devices exist in the mesh, or messages are sent very frequently. Faster speeds (and therefore lower radio time per device) can help with mesh network congestion.
-2. Maximum range is desired, for long range scenarios where a several second delay in message receipt is acceptable (for instance, attempting to send messages from a town to a distant mountain top).
+1. **High Device Density or Frequent Messaging**: In environments where many devices are present within the mesh network or messages are transmitted frequently, higher speeds (resulting in less radio time per device) can mitigate mesh network congestion.
+2. **Maximum Range Requirement**: For situations where the maximum possible range is essential and a delay of several seconds in message reception is acceptable (e.g., transmitting messages from a town to a distant mountain top).
 
-The Presets available are as follows, and follow a linear pattern of:  
+The available presets span a spectrum from:
 `Fastest <--> Slowest` and `Shortest <--> Longest range`:
 
 1. SHORT_FAST (Fastest, highest bandwidth, lowest airtime, shortest range)
@@ -146,26 +140,28 @@ The Presets available are as follows, and follow a linear pattern of:
 
 ### More about Preset
 
-Various data-rate options are available when configuring a channel and are inversely proportional to the theoretical range of the devices.
+Various data-rate options can be configured for a channel, which are inversely proportional to the theoretical range of the devices.
 
-- **Spreading Factor (SF)** - How much we "spread" our data over time.
-  - Each step up in Spreading Factor doubles the airtime to transmit.
-  - Each step up in Spreading Factor adds about 2.5db extra link budget.
-- **Bandwidth** - How big of a slice of the spectrum we use.
-  - Each doubling of the bandwidth is almost 3db less link budget.
-  - Bandwidths less than 31 may be unstable unless you have a high quality Crystal Oscillator.
-- **Coding Rate** - How much redundancy we encode to resist noise.
-  - Increasing coding rate increases reliability while decreasing data-rate.
-  - 4/5 - 1.25x overhead
-  - 4/6 - 1.5x overhead
-  - 4/7 - 1.75x overhead
-  - 4/8 - 2x overhead
+- **Spreading Factor (SF)**: Determines the extent to which data is "spread" over time.
+  - Each increase in Spreading Factor doubles the transmission airtime.
+  - Each increase in Spreading Factor enhances the link budget by approximately 2.5db.
+- **Bandwidth**: Defines the spectrum segment utilized.
+  - Doubling the bandwidth nearly results in a 3db decrease in link budget.
+  - Bandwidths below 31 may exhibit instability unless paired with a high-quality Crystal Oscillator.
+- **Coding Rate**: The level of redundancy applied to mitigate noise interference.
+  - Elevating the coding rate boosts reliability at the expense of reducing data-rate.
+  - 4/5 coding rate incurs 1.25x overhead
+  - 4/6 coding rate incurs 1.5x overhead
+  - 4/7 coding rate incurs 1.75x overhead
+  - 4/8 coding rate incurs 2x overhead
+
 
 ### Custom Settings
 
-Custom settings can be applied by using [supported software](/docs/software).
+Custom settings can be configured using [supported software](/docs/software).
 
-In addition to the 8 Modem Presets, you can also customize the parameters to your need.   
+Beyond the 8 Modem Presets available, there is also the flexibility to tailor the parameters according to your specific requirements.
+
 
 > [!NOTE]
 > After applying the settings, you will need to restart the device.
@@ -188,7 +184,7 @@ Some example settings:
 | 0.073 kbps |  12 / 4096   |     4/5     |    31     |    160dB    | Twice the range and/or coverage of "Long Slow", low resilience to noise  |
 | 0.046 kbps |  12 / 4096   |     4/8     |    31     |    160dB    | Twice the range and/or coverage of "Long Slow", high resilience to noise |
 
-The link budget used by these calculations assumes a transmit power of 17dBm and an antenna with 0dB gain. Adjust your link budget assumptions based on your actual devices.
+The link budget calculations are based on an assumed transmit power of 17dBm and an antenna with 0dB gain. It's important to adjust your link budget assumptions according to the specifications of your actual devices.
 
 > [!NOTE]  
 > These channel settings may not have been tested. Use at your own discretion. Share on https://meshtastic.discourse.group with your successes or failure.
