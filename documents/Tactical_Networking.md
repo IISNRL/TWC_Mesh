@@ -2,12 +2,13 @@
 
 The combination of Meshtastic and ATAK provides a comprehensive solution for communication and situational awareness in environments where traditional connectivity is limited or absent, utilizing the strengths of both platforms.
 
-## Prepare your device:
+## Prepare your device
 
 > [!Note]
 > Unfortunately, current TAK only support Android system
 
-Before we get started, please make sure your device is ready and have the following software installed:  
+Before we begin, please ensure that your device is prepared and that the subsequent software is installed:
+
 
 ATAK-CIV 
 > Link: 
@@ -21,12 +22,11 @@ Meshtastic ATAK Plugin
 Meshtastic Firmware
 > Link:  [Github](https://github.com/meshtastic/firmware)
 
-## Setting Up Meshtastic:
-You can download the Meshtastic Android app either from the Google Play Store, F-Droid, or directly as an APK from GitHub.  
-We'll recommend the latest stable version of the app.  
-And make sure your node devices are updated to the latest stable or alpha version of the Meshtastic firmware.  
+## Setting Up Meshtastic
 
-See: [flashing-firmware](https://github.com/IISNRL/TWC_Mesh/blob/main/documents/Meshtastic_Usage.md#flashing-firmware) for more instruction.  
+The Meshtastic Android application can be obtained from the Google Play Store, F-Droid, or directly as an APK from GitHub. It is advisable to install the most recent stable release of the app. Additionally, ensure that your node devices are running on the latest stable or alpha iteration of the Meshtastic firmware. 
+
+Refer to the [flashing-firmware](https://github.com/IISNRL/TWC_Mesh/blob/main/documents/Meshtastic_Usage.md#flashing-firmware) section for detailed instructions.
 
 ## Connecting to Devices:
 Set your node device configuration to suit your situation.   
@@ -38,13 +38,15 @@ For the device role, the role is set to TAK (typically it would be set to Client
 
 See: [connect-to-your-device](https://github.com/IISNRL/TWC_Mesh/blob/main/documents/Meshtastic_Usage.md#connect-to-your-device) for more.  
 
-## Testing Meshtastic Communication:
-Before integrating ATAK, it's recommended to ensure all devices can communicate within the Meshtastic app to ensure a stable foundation before introducing new variables.
+## Testing Meshtastic Communication
 
-## Installing the ATAK Plugin:
-The ATAK plugin installation process involves downloading the plugin from Meshtastic’s GitHub [releases page](https://github.com/meshtastic/ATAK-Plugin), then installing it on your device, potentially requiring permission to install APKs.
+Prior to incorporating ATAK, it is advisable to confirm that all devices are able to communicate effectively through the Meshtastic app to establish a solid base before introducing any new elements.
 
-In ATAK, go into ```Setting > Tool Preferences > Package Management``` refresh and install the plugin.
+## Installing the ATAK Plugin
+
+The installation procedure for the ATAK plugin includes downloading the plugin from Meshtastic's GitHub  [releases page](https://github.com/meshtastic/ATAK-Plugin) and then installing it on the device, which may necessitate authorization to install APKs.
+
+Within ATAK, navigate to ```Setting > Tool Preferences > Package Management``` to refresh and install the plugin.
 
 <p align="center">
 <img src="https://github.com/IISNRL/TWC_Mesh/assets/11376362/20211a2b-d621-476d-a71e-ab60e955878d" width="650">
@@ -52,20 +54,23 @@ In ATAK, go into ```Setting > Tool Preferences > Package Management``` refresh a
 <img src="https://github.com/IISNRL/TWC_Mesh/assets/11376362/1e451b1d-ba61-4813-a3ce-200970cfee90" width="650">
 </p>
 
-## Configure and test the plugin with ATAK:  
-Once the plugin is loaded, you can start sending messages between devices using LoRa.  
-The communication does not depend on 4G / Wi-Fi or TCP/IP, but is transmitted over the LoRa network by Meshtastic.  
+## Configure and test the plugin with ATAK
 
-## Conclusion:  
+Once the plugin is activated, communication between devices via LoRa can commence. 
 
-The integration of Meshtastic with ATAK represents a powerful fusion of long-range communications and advanced situational awareness capabilities, tailored for the most demanding environments where traditional connectivity falls short.   
+This method of communication is independent of 4G/Wi-Fi or TCP/IP, as it is transmitted through the LoRa network by Meshtastic.
 
-This combination will not only increase the efficiency and safety of outdoor adventures and operations, but will also provide users with a level of information sharing and coordination that has previously been limited to high-tech military applications.   
+
+## Conclusion 
+
+The merging of Meshtastic with ATAK signifies a potent amalgamation of extended-range communication and sophisticated situational awareness abilities, designed for challenging environments where conventional connectivity is inadequate. 
+
+This amalgamation will not only enhance the effectiveness and security of outdoor activities and missions but will also offer users a degree of information exchange and cooperation that was previously restricted to advanced military uses. 
 
 <p align="center">
 <img src="https://github.com/IISNRL/TWC_Mesh/assets/11376362/4cf09b0b-e648-4bb2-b0b4-866d0d8f7f31" width="650">
 </p>
 
-By leveraging Meshtastic's robust mesh networking for reliable, off-grid communications and ATAK's detailed geospatial data and real-time collaboration tools, teams can maintain seamless connectivity and awareness regardless of location.   
+By utilizing Meshtastic's resilient mesh networking for dependable off-grid communication and ATAK's intricate geospatial information and real-time collaboration features, teams can sustain uninterrupted connectivity and awareness irrespective of their whereabouts. 
 
-This synergy opens up new possibilities for exploration, emergency response and remote operations, making it an invaluable asset for anyone requiring reliable communication and navigation support in the field.  
+This collaboration introduces fresh opportunities for exploration, emergency response, and remote operations, rendering it an invaluable resource for individuals in need of dependable communication and navigation assistance in the field.
