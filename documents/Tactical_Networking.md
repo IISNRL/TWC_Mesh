@@ -28,15 +28,17 @@ The Meshtastic Android application can be obtained from the Google Play Store, F
 
 Refer to the [flashing-firmware](https://github.com/IISNRL/TWC_Mesh/blob/main/documents/Meshtastic_Usage.md#flashing-firmware) section for detailed instructions.
 
-## Connecting to Devices:
-Set your node device configuration to suit your situation.   
-For the device role, the role is set to TAK (typically it would be set to Client), which allows the device to prioritize ATAK commands over Meshtastic's default behavior.  
+## Connecting to Devices
+
+Adjust the configuration of your node device according to your specific requirements. The device role is configured as TAK (normally it is configured as Client), enabling the device to give priority to ATAK commands instead of Meshtastic's standard behavior.
+  
 
 <p align="center">
 <img src="https://github.com/IISNRL/TWC_Mesh/assets/11376362/d54ea6fa-6fbc-45bd-9aba-f2475fecc141" width="450">
 </p>
 
-See: [connect-to-your-device](https://github.com/IISNRL/TWC_Mesh/blob/main/documents/Meshtastic_Usage.md#connect-to-your-device) for more.  
+Refer to [connect-to-your-device](https://github.com/IISNRL/TWC_Mesh/blob/main/documents/Meshtastic_Usage.md#connect-to-your-device) for additional information.
+
 
 ## Testing Meshtastic Communication
 
