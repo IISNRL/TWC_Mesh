@@ -1,6 +1,6 @@
 # TWC_Mesh_device
 
-In this page, we'll introduce the specifications and components of our customized Meshtastic device.  
+This article presents the specifications and elements of the Meshtastic device tailored by this study. 
 
 <p align="center">
 <img src="https://github.com/IISNRL/TWC_Mesh/assets/11376362/8f376791-1270-4219-920e-9b1ffa1ac1b5" width="600">
@@ -8,9 +8,8 @@ In this page, we'll introduce the specifications and components of our customize
 
 ## Why do we need to build our own?
 
-Currently, you can find a lot of Meshtastic-supported developers on the market.  
+Numerous devices compatible with Meshtastic are available, with the following being among the most popular choices currently on the market.
 
-This is the most common off-the-shelf hardware available for purchase.  
 
     RAK WisBlock Devices
     LILYGO® TTGO T-Beam
@@ -21,24 +20,23 @@ This is the most common off-the-shelf hardware available for purchase.
     Nano Series
     Raspberry Pi Pico
 
-However, the biggest problem is that most of the devices use ESP32 as the core processor, in other words, it's NOT an option for us.  
-The few hardware that don't use ESP32 are more expensive, less expandable, or harder to buy.  
+Given that the project was initiated in Taiwan during increasing geopolitical tensions and cross-strait relations, it is crucial to carefully choose source chips for hardware development to steer clear of products that could potentially present a national security risk. Consequently, ESP32 is ruled out as a viable option, while alternative solutions that do not rely on ESP32 are generally more costly, less versatile, or challenging to procure. 
 
-Because of these problems, we had to rebuild the whole project from scratch, evaluating all the available parts and reconstructing the project.
-Luckily, Meshtastic is very open source and has a rich user community, with people trying out every conceivable solution and platform!
+As a result, the decision was made to start afresh with the device, thoroughly assessing all available components and revamping the project. Fortunately, Meshtastic stands out as an open-source initiative supported by a vibrant user community, where individuals explore a wide range of solutions and platforms.
 
 ## Core component
 
-To build a Meshtastic node, it must contain at least the following components.
+To create a Meshtastic node, it needs to have, at a minimum, the following elements: 
+
   * Core processor
   * LoRa communication module
   * Antenna
   * Display Screen
   * GPS module
   * Battery  
-  (If you really want to reduce the cost, screen/GPS/batteries are not necessary.)  
+(If cost reduction is a priority, a screen/GPS/batteries are not essential.)
 
-Finally, based on the maturity of the program on different platforms, we chose:  
+After considering the program's level of development on various platforms, we have selected the following as the central elements of this project.
 
 | Parts	|  Model  | 
 |---------------|------------  |
@@ -46,37 +44,35 @@ Finally, based on the maturity of the program on different platforms, we chose:
 |   LoRa module |  Semtech sx1262 (USA) |
 |   GPS module  |  NEO-6M (Switzerland)   |
 
-As the core components of this project.  
-
 
 ## Prototyping 
 
 
-After a few twists and turns, we were able to get all the parts we needed.  
+Following some unexpected challenges, we managed to acquire all the necessary components 
+
 <p align="center">
 <img src="https://github.com/IISNRL/TWC_Mesh/assets/11376362/73f6c75d-969b-4bcb-b6e9-cc8828f07458" width="450">
 </p>
 
-and successfully ported the meshtestic project to our hardware.  
+and effectively transferred the meshtestic project to our hardware. 
+
 <p align="center">
 <img src="https://github.com/IISNRL/TWC_Mesh/assets/11376362/75f9df66-1073-467c-b33e-2a17437c0b56" width="450">
 </p>
 
-It looks like it will work and communicate properly.  
-The next step is to design a device that can be used on the go, so you don't have to run wires everywhere.  
+Initial indications suggest that it will function correctly and establish communication seamlessly. Our subsequent objective involves devising a portable device to eliminate the need for extensive wire connections.
 
 
 ## PCB design
 
-Considering overall size, battery type/position, usage posture, ease of maintenance, placement of various modules, and whether signal lines will be affected.  
-We designed a PCB version of these devices to facilitate subsequent experimentation and testing.  
+
+Taking into account the overall dimensions, type and positioning of the battery, usage position, maintenance convenience, arrangement of different components, and potential impact on signal lines, we have developed a PCB model of these gadgets to simplify future experimentation and evaluation. 
 
 <p align="center">
 <img src="https://github.com/IISNRL/TWC_Mesh/assets/11376362/4a42b649-fad4-4f2b-886c-be1830702fb7" width="450">
 </p>
 
-After a few more iteration, the GPS module is now a detachable design.  
-
+Following several refinements, the GPS component now features a removable configuration. 
 
 <p align="center">
 <img src="https://github.com/IISNRL/TWC_Mesh/assets/11376362/96cc72cd-f229-4290-b758-4fcebd688775" width="550">
@@ -84,126 +80,119 @@ After a few more iteration, the GPS module is now a detachable design.
 <img src="https://github.com/IISNRL/TWC_Mesh/assets/11376362/59f08159-f106-427c-a4ce-e457b45472d6" width="550">
 </p>
 
-Finally, by assembling the various parts, we have hardware we're able to present!  
+Subsequently, through the assembly of the diverse components, we have successfully created the hardware for demonstration purposes! 
+
 <p align="center">
 <img src="https://github.com/IISNRL/TWC_Mesh/assets/11376362/d9a67539-a224-4bd6-8595-1862bcfbd057" width="500">
 </p>
 
-And I even did some basic testing in the campus.
+Moreover, we conducted some preliminary testing on the campus. 
 
 <p align="center">
 <img src="https://github.com/IISNRL/TWC_Mesh/assets/11376362/00905149-701f-4c9d-89bd-123b0c20dd25" width="500">
 </p>
 
-But it didn't go that smoothly...  
+However, the process encountered some challenges...  
 
 
 ## About antenna
 
-The thing is, We found that the performance of this prototype system is not as good as the theoretical value, and the difference is a bit big.  
 
-In addition to the occasional disconnection and high packet loss rate, the longest communication distance is only 400m, and the RSSI is also very bad, which is quite different from our previous experience using LoRa (later found out that it is my design problem).  
+We observed that the performance of the prototype system did not meet the expected theoretical value, showing a significant discrepancy. 
 
-All in all, the pre-test was not as good as we thought it would be.  
+Along with intermittent disconnections and a high packet loss rate, the maximum communication distance was limited to only 400m, and the Received Signal Strength Indication (RSSI) was notably poor, contrasting with our prior successful experiences with LoRa technology (later identified as a design flaw on our part). 
 
-At this point, I started thinking about whether the antenna was defective or not.    
-I wondered if the antenna I was holding was good or not, and if it was the right antenna to use.  
+Overall, the preliminary test results fell short of our initial expectations. This prompted me to question the integrity of the antenna being used. 
 
-So, I bought a NanoVNA
+We began to wonder about the quality and suitability of the antenna in our possession. Subsequently, we acquired a NanoVNA to assess all antennas available in the laboratory meticulously, conducting measurements, labeling, and categorizing each one. 
 
 <p align="center">
 <img src="https://github.com/IISNRL/TWC_Mesh/assets/11376362/9d2532c3-b1cf-4059-b856-fe10b9f7fc96" width="500">
 </p>
 
-and went through all the antennas in my lab, measuring, labeling, and categorizing them one by one.   
-I even built my own antennas to match the frequencies.  
+We even ventured into constructing custom antennas tailored to the specific frequencies. 
 
 <p align="center">
 <img src="https://github.com/IISNRL/TWC_Mesh/assets/11376362/86cf540f-3ac7-4a04-b3a8-8ed587623ca0" width="500">
 </p>
 
+The investigation revealed that a 2.4GHz antenna had been mistakenly included among the four sets of 915MHz antennas we had purchased. In essence, the incorrect antenna had been utilized during the testing phase.
 
-As a result, a 2.4G antenna was mixed in with the 4 sets of 915Mhz antennas I bought.  
-Simply put, I used the wrong antenna for testing.  
 
 ## Other issue
 
-After fixing the antenna, we started experimenting again, but this time we encountered a different problem.  
-I noticed that after sending a message to our node, the node's Bluetooth signal would suddenly disconnect from the smartphone.  
 
-I went through all the code and couldn't figure out why, there was no reason for the system to reset.  
+After repairing the antenna, we resumed our experiments, only to encounter a new issue this time. Upon sending a message to our node, we observed that the Bluetooth signal of the node would abruptly disconnect from the smartphone. Despite thoroughly reviewing the code, we could not identify any apparent cause for the system reset. 
 
-At first there was really no way to debug it, but I was using a suitable antenna, the hardware was theoretically consistent with the official design, the software had no error messages, the power supply was stable, and I ruled out the possibility that the communication module was using more power to generate a surge when sending the commands.  
+Initially, there seemed to be no viable method for debugging the issue. However, we had ensured the use of an appropriate antenna, the hardware aligned with the official design specifications, the software displayed no error messages, the power supply remained steady, and we dismissed the likelihood of the communication module drawing excessive power leading to a surge during command transmission. 
 
-Also, I began to think about electromagnetic interference and repeatedly adjusted the position of the communication module and the microprocessor, but still without success.  
-
-Finally, I observed these units long enough to conclude that "if you rotate the antenna to a certain angle, the disconnection does not occur," and I was able to reproduce this on several units. (The video below shows that each unit requires a different angle)  
+Delving into the realm of electromagnetic interference, we made numerous adjustments to the placement of both the communication module and the microprocessor, yet to no avail. It was only after a prolonged observation of these components that we deduced that by rotating the antenna to a specific angle, the disconnection issue could be averted. Subsequently, we successfully replicated this phenomenon across multiple units. (The video below demonstrates the unique angle required for each unit)
 
 
 [![vid_1](https://img.youtube.com/vi/ydvMb66vghs/0.jpg)](https://www.youtube.com/watch?v=ydvMb66vghs)
 
 ## Redesign PCB
 
-To be honest, I've forgotten how I found this problem, probably after reading a lot of official documents and design guidelines, and comparing various related hardware designs.  
+Honestly, we have forgotten the exact source where we encountered this issue. It likely came about after extensively reviewing official documents, design guidelines, and analyzing various related hardware designs. 
 
-I realized that the line "from the communication module to the SMA connector" was too thin, or more precisely, not "impedance matched".  
+It became apparent to me that the connection "from the communication module to the SMA connector" was inadequately thin and lacked impedance matching. 
 
 <p align="center">
 <img src="https://github.com/IISNRL/TWC_Mesh/assets/11376362/1795a48f-4d07-41c4-b744-1e015d19b1c0" width="500">
 </p>
 
-Prior to this project, I had never designed a "high-frequency" circuit board, or had any proper training in this area.   
+Before undertaking this project, we had no prior experience in designing high-frequency circuit boards nor had we received formal training in this specific domain. 
 
-In the past projects, I needed some UART/I2C/SPI interfaces, and I had a high degree of acceptance of PCB thickness, material, line width, surrounding shielding, etc., so I didn't have any problems with the preset parameters.  
+In previous projects, our requirements were mainly centered around UART/I2C/SPI interfaces, and we had always adhered to the prescribed parameters for PCB thickness, material, line width, and shielding without encountering any difficulties. 
 
-But this time is different, wireless signaling is very demanding, you can't just plug in the cable and hope it works.  
+However, this time was different as wireless communication demands precision; simply connecting a cable and hoping for it to function was not feasible. 
 
-After reading various articles, information and using tools and software to calculate the appropriate combination  
+After conducting extensive research, consulting various resources, and utilizing tools and software to determine the optimal configuration, 
 
 <p align="center">
 <img src="https://github.com/IISNRL/TWC_Mesh/assets/11376362/70da5d0f-8727-4f39-b5ce-d8b675dea42c" width="500">
 </p>
 
-I designed the second version of the PCB  
+We revised the PCB design for the second iteration. 
 
 <p align="center">
 <img src="https://github.com/IISNRL/TWC_Mesh/assets/11376362/d34606c7-62db-43ee-9c22-e9d60ee15377" width="500">
 </p>
 
-I also designed different configurations of nodes based on my previous experience to make the whole thing more compact and portable.  
+
+Drawing from our past projects, we also devised different node setups to enhance compactness and portability of the overall system.
 
 <p align="center">
 <img src="https://github.com/IISNRL/TWC_Mesh/assets/11376362/a7443c82-08af-49db-b3aa-8d02fa55de01" width="500">
 </p>
 
+
 ## Field test
 
-We later tested this version by placing one end on the roof and carrying the other end with us.  
+We conducted a trial with this iteration by positioning one extremity on the rooftop and transporting the other end along with us. 
 
 <p align="center">
 <img src="https://github.com/IISNRL/TWC_Mesh/assets/11376362/0362bb53-00ef-4638-8d1d-7bae805c57c8" width="500">
 </p>
 
-According to the results of the experiment, we were able to achieve a communication distance of more than 4.5km (it should be able to go further, but there is no road).  
+The outcomes of the test revealed that a communication range exceeding 4.5km was attained (although it could potentially reach further if there were no obstacles). 
 
 <p align="center">
 <img src="https://github.com/IISNRL/TWC_Mesh/assets/11376362/7ab9586f-955c-43b3-9a28-62f4b296be36" width="500">
 </p>
 
-However, LoRa is still affected by buildings and terrain, its penetration is limited, and it still can't communicate behind complex buildings and mountains.  
+Nonetheless, LoRa remains susceptible to interference from structures and topography, with its signal penetration being constrained, hindering communication capabilities behind intricate buildings and mountains. 
 
 <p align="center">
 <img src="https://github.com/IISNRL/TWC_Mesh/assets/11376362/ee93b516-328c-494e-8a88-22bc8c2951d7" width="500">
 </p>
 
-But for a battery-operated device with about 120 milliwatts of transmitting power, we're happy with the performance.  
+Nevertheless, considering it operates on approximately 120 milliwatts of transmitting power for a battery-powered device, we are content with its performance.  
 
 
 ## Conclution 
 
-By creating our Meshtastic device, we were able to design a solution that was perfectly tailored to our needs and provide valuable insights to the broader community.  
-Achieving a communication range of over 4.5 km is a real demonstration of the potential of LoRa technology and the care taken to optimize both hardware and software.  
 
-We look forward to refining our design, exploring new possibilities, and contributing to the collective knowledge of the community.   
+Through the development of our Meshtastic device, we successfully crafted a custom solution that precisely met our requirements and offered significant insights to the wider audience. Demonstrating a communication range exceeding 4.5 km truly showcases the capabilities of LoRa technology and the meticulous attention given to enhancing both the hardware and software components. 
 
-Thank you for your interest in the development of the TWC_Mesh device!
+We are eager to further enhance our design, delve into fresh opportunities, and enrich the communal knowledge base. Your support towards the advancement of the TWC_Mesh device is greatly appreciated.
