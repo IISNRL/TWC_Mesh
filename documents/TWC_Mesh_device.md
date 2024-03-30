@@ -1,4 +1,4 @@
-# TWC_Mesh_device
+# TWC_Mesh Device
 
 This article presents the specifications and elements of the Meshtastic device tailored by this study. 
 
