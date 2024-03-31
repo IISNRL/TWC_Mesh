@@ -18,10 +18,10 @@ Here's a quick overview of each document in this project:
 - Discusses integrating LoRa networks with other communication platforms to establish comprehensive tactical communication systems.
 - Showcases real-world applications and advantages of such integrations.
 
-## [Field Try and tests](https://github.com/IISNRL/TWC_Mesh/blob/main/documents/Field_Try_and_tests.md)
+## [Field Try and tests](https://github.com/IISNRL/TWC_Mesh/blob/main/documents/Field_Try_and_tests.md) (not available yet)
 - Chronicles our direct experiences with Meshtastic in various field trials and tests.
 - Shares findings, insights, and lessons learned from using Meshtastic devices under different conditions and setups.
 
-## [Scenario Discussion](https://github.com/IISNRL/TWC_Mesh/blob/main/documents/Scenario_disscussion.md)
+## [Scenario Discussion](https://github.com/IISNRL/TWC_Mesh/blob/main/documents/Scenario_disscussion.md) (not available yet)
 - Facilitates discussion on potential applications and scenarios for effectively deploying Meshtastic.
 - Aims to foster community engagement by exchanging ideas and experiences to inspire innovative uses of Meshtastic technology.
