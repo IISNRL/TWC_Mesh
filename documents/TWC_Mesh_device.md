@@ -20,7 +20,7 @@ Numerous devices compatible with Meshtastic are available, with the following be
     Nano Series
     Raspberry Pi Pico
 
-Given that the project was initiated in Taiwan during increasing geopolitical tensions and cross-strait relations, it is crucial to carefully choose source chips for hardware development to steer clear of products that could potentially present a national security risk. Consequently, ESP32 is ruled out as a viable option, while alternative solutions that do not rely on ESP32 are generally more costly, less versatile, or challenging to procure. 
+The initiative began in Taiwan, a region facing growing geopolitical tensions and complex cross-strait relations. It is essential to select source chips carefully for hardware development to avoid products that might pose a national security threat. As a result, ESP32 is not considered a suitable choice, while other options not dependent on ESP32 are usually more expensive, less flexible, or harder to obtain.
 
 As a result, the decision was made to start afresh with the device, thoroughly assessing all available components and revamping the project. Fortunately, Meshtastic stands out as an open-source initiative supported by a vibrant user community, where individuals explore a wide range of solutions and platforms.
 
