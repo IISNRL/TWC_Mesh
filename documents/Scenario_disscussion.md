@@ -1,59 +1,50 @@
 # Scenario disscussion
 
 "What tools do we have when disaster strikes?"  
-"What if we don't have internet?"  
+"What if we don't have Internet?"  
 
 ## About the Project.
 
-In the face of natural disasters, emergencies, or other crisis situations, communication is often a matter of life and death.   
-However, in many disaster situations, traditional communications infrastructure can be damaged or disrupted, leaving people unable to get the information they need in a timely manner or to seek rescue or assistance.  
+During natural disasters, emergencies, or crises, effective communication becomes critical for survival. Unfortunately, in such scenarios, conventional communication systems are frequently compromised, making it challenging for individuals to access necessary information promptly or to request help.
 
-As a result, the TWC_Mesh project was developed to provide a robust and reliable communications system to respond to disasters and emergencies.   
-The project was born out of a desire to provide a communications solution that would work during emergencies to ensure that people could stay connected, share information, coordinate actions, and receive timely assistance.
+Consequently, the TWC_Mesh initiative was created with the aim of offering a sturdy and dependable communication system to address disasters and emergencies. The project originated from the need to create a communication system that could function effectively in emergencies to enable individuals to remain in touch, exchange information, collaborate on tasks, and obtain prompt help.
 
 <p align="center">
 <img src="https://github.com/IISNRL/TWC_Mesh/assets/11376362/e9f4aeae-1d48-4882-a2ae-b352c0b9aa14" width="600">
 </p>
 
-The TWC_Mesh project includes the use of wireless technology, self-organizing networks, and sensors to create a flexible and scalable communications network that can operate in a variety of environments.   
-The goal of this project is to improve the effectiveness of disaster response, minimize losses, and ensure the safety of personnel.  
+The TWC_Mesh initiative integrates wireless technology, self-organizing networks, and sensors to establish a versatile and expandable communication network suitable for diverse settings. The primary aim of this endeavor is to enhance the efficiency of disaster management, reduce damages, and guarantee the well-being of staff.
 
 
 ## Scenarios
 
-This project is designed to address some of the most challenging and extreme conditions for communications:  
+This project aims to tackle some of the most difficult and severe communication conditions:
 
-* Infrastructure failure:   
-  
-  In scenarios where traditional communications infrastructure such as telecom towers are unavailable, it is necessary to create an independent network.  
-Each unit within this network must operate autonomously and maintain connectivity without relying on fixed infrastructure.  
+* Infrastructure failure:
+   
+  In situations where conventional communication systems like telecommunication towers are not accessible, it becomes essential to establish a self-sufficient network. Each component in this network should function independently and sustain connectivity without depending on stationary infrastructure.
 
 * Lack of cellular networks:  
   
-  Without access to standard cellular services (4G/5G), the project must use alternative means of communication.  
-Long-range wireless technologies become critical in these situations, allowing messages to be transmitted over long distances where traditional networks fall short.  
+  In the absence of conventional cellular services (4G/5G), the project needs to rely on alternative communication methods. Long-distance wireless technologies play a crucial role in such scenarios, enabling the transmission of messages across vast distances that traditional networks cannot cover.
 
 * Limited power sources:  
   
-  Scarcity of power sources is a critical factor. Communication tools must be designed for energy efficiency, capable of operating extensively on minimal power.  
-  This includes integrating low-power hardware and implementing battery management strategies to avoid power outages at critical moments.  
+  The limited availability of power sources is a significant consideration. Communication devices need to be crafted with energy efficiency in mind, enabling them to function for long periods with minimal power usage. This involves incorporating low-power components and deploying battery management tactics to prevent power failures during crucial times.
 
 * Challenging terrain:  
   
-  The project will also address the challenges posed by mountainous regions or areas without cellular infrastructure.  
-  These landscapes can impede signal reach, requiring strategic considerations for signal propagation and the establishment of reliable communication paths despite natural obstacles.  
-
-These focus areas underscore the project's commitment to ensuring robust communications capabilities under the most challenging conditions, using innovative technologies to overcome connectivity barriers.  
+  The project will also tackle the difficulties presented by hilly terrains or regions lacking cellular infrastructure. These geographical features may hinder signal coverage, necessitating careful planning for signal transmission and the creation of dependable communication routes despite natural hindrances. These specific areas highlight the project's dedication to guaranteeing strong communication abilities even in demanding circumstances, by leveraging creative technologies to surmount connectivity challenges.
 
 
 ## What we want to achieve  
 
 We want to achieve the following goals:  
 
-* Provide long distance communication capability
+* Provide long-distance communication capability
 * Adequate bandwidth
 * Consume less power or be able to sustain power until communication is restored.
-* Be mobile*.
+* Be mobile.
 * Require limited prior knowledge
 * Positioning/Navigation
 * Provides geographic information
@@ -61,92 +52,80 @@ We want to achieve the following goals:
 
 ## Related Research/Projects
 
-Emergency communication networks have always been a hot topic, and related research and projects play an important role in the field of disaster emergency communication networks, representing different technical approaches and solutions to meet communication needs in different scenarios.  
+Emergency communication networks have consistently been a significant area of interest, with research and initiatives playing a crucial role in the domain of disaster emergency communication networks. These efforts encompass various technical strategies and resolutions aimed at addressing communication requirements across diverse scenarios. 
 
-Below are some of the projects and programs that exist today:  
+The following are a few of the current projects and initiatives in this realm:
 
 
 ### High bandwidth, ("Wi-Fi" like)
 
 * AREDN (Amateur Radio Emergency Data Network).  
   
-AREDN is an Amateur Radio Emergency Data Network designed to provide high-bandwidth communications capabilities.  
-It is built on the foundation of amateur radio technology and allows users to create networks to transmit data in disaster situations.   
+  AREDN is a network intended for emergency data communication in the realm of amateur radio, aiming to offer robust bandwidth capacities. Leveraging amateur radio technology, it enables users to establish networks for the transmission of data during times of crisis.
 https://www.arednmesh.org/
 
 * San Francisco Wireless Emergency Mesh (SFWEM).  
   
-SFWEM is a wireless emergency communications network designed for the San Francisco area to provide high-bandwidth, Wi-Fi-like communications for disaster situations such as earthquakes.  
+  SFWEM is an emergency communication network that is wireless and specifically created for the San Francisco region. It aims to offer high-bandwidth communication similar to Wi-Fi during emergencies like earthquakes.
 https://www.sfwem.net/
 
 ### Low Bandwidth, (Radio like)
 
 * Meshtastic  
   
-The Meshtastic project is an open source project for low-bandwidth, long-range communications.  
-It uses LoRa wireless technology to allow users to build self-organized networks to share information over long distances.  
+  The Meshtastic initiative is a freely available project designed for long-distance communication with low bandwidth. It employs LoRa wireless technology to enable users in constructing self-organized networks for sharing information across extended distances.
 https://meshtastic.org/
 
 * project-owl  
   
-project-owl aims to build a rapidly deployable disaster communications solution using IoT technology and LoRa wireless communications.  
-It aims to provide information sharing and collaboration capabilities during emergencies.  
+  The aim of the project-owl is to develop a rapidly deployable communication system for disaster scenarios, making use of IoT technology and LoRa wireless communications. The primary goal is to provide functionalities for exchanging information and working together in times of emergencies.
 https://www.project-owl.com/
 
-  * disaster-radio  
+* disaster-radio  
 
-disaster-radio is an open-source wireless communications project that uses ESP32 and LoRa hardware to provide low-bandwidth, long-range communications.   
-It is designed for community networking and emergency communications.  
+  disaster-radio is a wireless communications initiative based on ESP32 and LoRa technology, aiming to deliver long-distance, low-bandwidth communication. It is specifically crafted for community networking and emergency communication purposes.
 https://github.com/sudomesh/disaster-radio
   
-  * duck-link / sparrow-mesh
+* duck-link / sparrow-mesh
     
-The duck-link and sparrow-mesh projects are designed to create a low-power, long-range communications network for emergency communications needs.  
-They use ad hoc mesh and LoRa technologies and provide open source hardware and software.  
+  The duck-link and sparrow-mesh initiatives aim to establish an energy-efficient, extensive communication system for emergency communication requirements. These projects utilize ad hoc mesh and LoRa technologies, offering open-source hardware and software solutions.
 https://github.com/sparrow-platform/duck-sparrow-link
 
-  * lora-mesh  
+* lora-mesh  
   
-lora-mesh is a wireless networking solution based on LoRa technology that allows users to create a network and communicate in low bandwidth.   
-It is suitable for rural areas or places without traditional communication infrastructure.  
+  lora-mesh is a wireless networking solution that makes use of LoRa technology, allowing individuals to create a network and exchange information with limited bandwidth capabilities. This technology is particularly suitable for rural areas or regions that do not have traditional communication infrastructure.
 https://github.com/nootropicdesign/lora-mesh
 
-  * Lantern  
+* Lantern  
   
-Lantern is a communication and emergency response platform that uses Raspberry Pi and LoRa hardware to explore the capabilities of distributed networks for disaster response, especially in remote and disaster-prone areas.  
+  Lantern is a communication and emergency response system that employs Raspberry Pi and LoRa technology to investigate the potential of decentralized networks for disaster relief efforts, particularly in remote and disaster-prone regions.
 https://www.lantern.works/
 
 
 ## Possible options
 
-Based on the existing projects, we have summarized the following options:  
+Drawing from the current projects, we have compiled the subsequent choices:
 
 * Satellite Communication
   
-Satellite communication is a reliable means of communication that is not geographically limited. It can provide worldwide coverage and can communicate at locations far from the base station.   
-This allows people to use satellite phones or data connections to stay in touch during a disaster situation. However, satellite communications are more expensive and may require specialized equipment.
+  Satellite communication, a dependable form of communication, is not constrained by geography. It offers global coverage and enables communication in remote areas distant from the primary station. This capability allows individuals to utilize satellite phones or data connections to maintain contact in times of emergency. Nevertheless, satellite communications tend to be pricier and may necessitate specialized equipment.
 
 * Handheld radios  
   
-Handheld radios are portable communications devices commonly used in emergency and rescue operations.  
-They typically use short- to medium-range wireless communication technologies, such as walkie-talkies or radios, and do not rely on traditional communication networks.  
-This method is useful for communicating in small areas, but is limited in range.  
+  Handheld radios are compact communication tools frequently employed in emergency and rescue missions. They generally utilize short- to medium-distance wireless communication technologies like walkie-talkies or radios and are not dependent on conventional communication infrastructures. While effective for communication within close proximity, their range is restricted.
 
 * Wi-Fi Mesh  
     
-Wi-Fi Mesh is based on the existing Wi-Fi infrastructure, but can form a self-organizing network that allows direct communication between users.   
-This is useful for communicating in limited areas, especially in cities or neighborhoods where many Wi-Fi devices are available.  
-However, it requires power and network infrastructure support.  
+  Wi-Fi Mesh utilizes the current Wi-Fi framework, yet has the capability to establish a self-regulating network enabling direct interaction among users. It proves beneficial for communication within confined spaces, particularly in urban or residential areas abundant with Wi-Fi devices. Nonetheless, it necessitates support from power and network infrastructure.
 
 * LPWAN  
   
-LPWAN is a low-power, long-range communication technology, such as LoRaWAN and NB-IoT, that enables communication at low bandwidths and has excellent signal penetration for buildings in mountainous areas or cities.  
-LPWANs typically use low-power devices that can operate on battery power for long periods of time.  
+  LPWAN refers to a communication technology characterized by low power consumption and long-range capabilities, exemplified by technologies like LoRaWAN and NB-IoT. This technology facilitates communication at reduced bandwidths and boasts exceptional signal penetration, particularly in urban areas or mountainous regions. LPWAN networks commonly employ energy-efficient devices capable of prolonged operation on battery power.
 
 
 ## Our Choice
 
-Considering the time, cost, and labor, we finally chose:  
+Taking into account factors such as time, expenses, and manpower, we ultimately decided on:
 
 * LPWAN  
 
