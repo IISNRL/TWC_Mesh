@@ -27,7 +27,7 @@ Max distance:
 
 
 Note:  
-This is an early test, device is built with bread board and wires .  
+This is an initial trial; the device is assembled using the breadboard and wires.
 
 ---  
 
@@ -54,7 +54,7 @@ Max distance:
 </p>
 
 Note:  
-First prototype of our design, with a lot of design flaws and no tweaks in any section.  
+The first version of our design prototype has several design flaws and lacks refinements in all areas.
 
 ---  
 
@@ -81,7 +81,7 @@ Max distance:
 </p>
 
 Note:  
-In TWC_mesh_V4 we fixed the wrong PCB design, selected the right antenna and reconsidered the battery option.  
+In TWC_mesh_V4, we corrected the flawed PCB design, selected the suitable antenna, and reviewed the battery selection.
 
 
 ---  
@@ -111,25 +111,23 @@ Max distance:
 
 
 Note:  
-LoRa is not immune to interference from buildings and natural landscapes, and its signal penetration is limited.  
-These obstacles can reduce the effectiveness of communications behind complex architectural structures and mountainous terrain.  
+LoRa technology can be affected by interference caused by buildings and natural surroundings, leading to limitations in signal penetration. These obstacles can reduce the effectiveness of communication in regions characterized by complex architectural layouts and mountainous landscapes.
 
 
 ## Antenna test
 
-During our development, we found that the antenna plays a massive role in communication.  
+Throughout our investigation, it became evident that the antenna plays a significant role in communication.
 
 
 <p align="center">
 <img src="https://github.com/IISNRL/TWC_Mesh/assets/11376362/04aec9a0-7d42-4adc-b811-67e38f28209f" width="800">
 </p>
 
-Not always the more expensive the better, antennas can sometimes be a bit "magical".  
+Paying a higher price for antennas does not always mean that the quality is superior, as their effectiveness can appear somewhat mysterious at times. It is recommended to: 
 
-The rule of thumb is:
-* Don't trust the "long range" antenna.
-* Avoid products that don't provide specifications 
-* Check the vendor's other products, sometimes they don't understand what they're selling. 
+* Exercise caution with antennas that assert to provide increased coverage. 
+* Avoid products that do not provide comprehensive specifications. 
+* Examine the vendor's other products, as their understanding of the items they sell may be insufficient on occasion.
 
 <p align="center">
 <img src="https://github.com/IISNRL/TWC_Mesh/assets/11376362/948fb426-59a3-46f2-ad1e-c0cd3395bbb3" width="500" />
@@ -146,19 +144,19 @@ The rule of thumb is:
 <img src="https://github.com/IISNRL/TWC_Mesh/assets/11376362/0517fba1-a2c2-48dd-8ee8-60b9c3bc4c65" width="500">
 <img src="https://github.com/IISNRL/TWC_Mesh/assets/11376362/af2b9075-da30-4416-b78b-90559a669035" width="500">
 </p>  
-Building our own antenna gives us the most customizable option, but it's not very easy if we need to build multiple devices.   
+
+Designing our own antenna allows for a high level of customization, but it can become challenging when multiple devices need to be built.
 
 ## Vector Network Analyzers
 
-Ensuring that your antenna is properly tuned to your operating frequency is a critical step. Many low-cost antennas are inaccurately tuned to the wrong frequency, resulting in a significant reduction in signal strength.  
-Using a vector network analyzer (VNA) can verify that the antenna is properly matched to the transmission circuit.   
-This ensures that the antenna is operating at the correct frequency.  
+Ensuring that your antenna is properly tuned to the operational frequency is a critical step. Many low-cost antennas are often misaligned to an inaccurate frequency, resulting in a significant reduction in signal strength. Using a vector network analyzer (VNA) can validate that the antenna is correctly calibrated with the transmission circuit, ensuring that it operates at the correct frequency.
+
 
 <p align="center">
 <img src="https://github.com/IISNRL/TWC_Mesh/assets/11376362/8662999a-8e3a-46b6-90fd-c32d48c63338" width="600">
 </p>
 
-And it's always nice to have a professional lab do the testing for you.  
+Having the testing performed by a professional laboratory is always a good idea.
 
 <p align="center">
 <img src="https://github.com/IISNRL/TWC_Mesh/assets/11376362/80c3748d-e126-4c98-aecc-20085eece704" width="500" />
@@ -169,13 +167,14 @@ And it's always nice to have a professional lab do the testing for you.
 <img src="https://github.com/IISNRL/TWC_Mesh/assets/11376362/0684b916-cfc8-46af-a9fa-c0b75475dfb1" width="600" />
 </p>
 
-Currently [ANT-916-CW-HWR-SMA](https://www.mouser.tw/ProductDetail/TE-Connectivity-Linx-Technologies/ANT-916-CW-HWR-SMA?qs=K5ta8V%252BWhtZqsDF9HiOBpg%3D%3D) works the best with our device, check other antenna report [here](https://github.com/meshtastic/antenna-reports).   
+At present, [ANT-916-CW-HWR-SMA](https://www.mouser.tw/ProductDetail/TE-Connectivity-Linx-Technologies/ANT-916-CW-HWR-SMA?qs=K5ta8V%252BWhtZqsDF9HiOBpg%3D%3D) performs optimally with our device; please refer to the other antenna report provided [here](https://github.com/meshtastic/antenna-reports).
+
 
 
 ## More antenna information
 
 Hackaday's Introduction to Antenna Basics ([link](https://www.youtube.com/playlist?list=PL_tws4AXg7authztKFg5ZN5qWGtq3N_nI))  
-An excellent series of presentations on the basics of antenna design and function, presented by spacecraft radio engineer Karen Rucker.  
+An excellent series of presentations on the basics of antenna design and functionality, presented by spacecraft radio engineer Karen Rucker.
 
 ### Coverage prediction 
 
