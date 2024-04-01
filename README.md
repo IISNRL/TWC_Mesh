@@ -31,7 +31,8 @@ The project encompasses several dimensions:
 - Experience with hardware development and open-source projects.
 - Understanding the geopolitical context (especially regarding Taiwan) is beneficial.
 
-
+## Discussion Forums
+[Join Discord server](https://discord.gg/aQgGKASCeR)
 
 ## Contributing
 We welcome contributions from the community. Please read our CONTRIBUTING.md file for details on how to submit pull requests, the process for submitting bugs, and other ways you can contribute to the project.
