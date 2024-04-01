@@ -1,4 +1,4 @@
-![image](https://github.com/IISNRL/TWC_Mesh/assets/1947472/547c210c-c9fb-4379-81df-62752956a6ad)# TWC_Mesh: Together We Connect Mesh
+# TWC_Mesh: Together We Connect Mesh
 
 ![TWC Scenario](TWC_scenario_by_DALLE3.jpg)
 
