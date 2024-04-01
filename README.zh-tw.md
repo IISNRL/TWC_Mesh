@@ -19,9 +19,9 @@
 
 1. [**硬體開發**](hardware/)：我們專注於開發基於開源晶片的開源硬體，以滿足本計畫的特定需求。
 2. [**情境模擬**](scenarioes)：提供不同的應用情境，並開發各種訓練腳本。
-    - [Meshtastic Messenger](documents/Meshtastic_Messenger.md): off-grid messenger via Meshtastic
+    - [Meshtastic Messenger](documents/Meshtastic_Usage.md): off-grid messenger via Meshtastic
     - [Tactical Networking](documents/Tactical_Networking.md): situation awareness app via tactical networking
-3. [**工具開發**](tools)：我們開發適用於不同應用情境的工具。
+    - 你可以在 [documents](documents/) 下找到更多有用的文章。
 
 ## 開始使用
 
