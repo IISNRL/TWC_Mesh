@@ -21,7 +21,6 @@ The project encompasses several dimensions:
 2. **Application Scenarios**: Different application scenarios are provided, along with the development of various training scripts.
    - [Meshtastic Messenger](documents/Meshtastic_Messenger.md): off-grid messenger via Meshtastic
    - [Tactical Networking](documents/Tactical_Networking.md): situation awareness app via tactical networking
-4. [**Tool Development**](tools): We develop tools required for different application scenarios.
 
 ## Getting Started
 
