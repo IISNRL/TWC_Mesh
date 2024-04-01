@@ -1,4 +1,4 @@
-# TWC_Mesh: Together We Connect Mesh
+![image](https://github.com/IISNRL/TWC_Mesh/assets/1947472/547c210c-c9fb-4379-81df-62752956a6ad)# TWC_Mesh: Together We Connect Mesh
 
 ![TWC Scenario](TWC_scenario_by_DALLE3.jpg)
 
@@ -48,4 +48,5 @@ Special thanks are due to the many volunteers and contributors who dedicated the
 ## Contact
 - Project Lead: Fu-Hsiang Sean Ching (sean3381212@gmail.com) & Ling-Jyh Chen (cclljj@google.com)
 - Project URL: [https://github.com/IISNRL/TWC_Mesh](https://github.com/IISNRL/TWC_Mesh)
+- Join us on Discord: https://discord.gg/aQgGKASCeR
 
