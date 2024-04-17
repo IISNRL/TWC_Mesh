@@ -26,8 +26,8 @@ extern "C" {
 #define NUM_ANALOG_OUTPUTS (0)
 
 // LEDs
-#define PIN_LED1 (32 + 10) // Blue LED        P1.12
-#define PIN_LED2 (32 + 15)  // Built in Green  P0.06
+#define PIN_LED1 (32 + 10) // Blue LED        P1.10
+#define PIN_LED2 (32 + 15)  // Built in Green  P1.15
 
 
 // RGB NeoPixel LED2
@@ -81,13 +81,12 @@ static const uint8_t AREF = PIN_AREF;
 #define PIN_SPI_SCK (0 + 14)  // SCK       P0.14
 
 
-static const uint8_t SS = (0 + 6); // LORA_CS   P0.31
+static const uint8_t SS = (0 + 6); // LORA_CS   P0.06
 static const uint8_t MOSI = PIN_SPI_MOSI;
 static const uint8_t MISO = PIN_SPI_MISO;
 static const uint8_t SCK = PIN_SPI_SCK;
 
 
-////#define USE_EINK
 #define USE_SSD1306
 
 /*
@@ -98,7 +97,6 @@ static const uint8_t SCK = PIN_SPI_SCK;
 #define PIN_WIRE_SDA (0 + 12) // SDA     P0.12
 #define PIN_WIRE_SCL (0 + 11) // SCL     P0.11
 
-// NiceRF 868 LoRa module
 #define USE_SX1262
 #define USE_LLCC68
 
@@ -116,7 +114,7 @@ static const uint8_t SCK = PIN_SPI_SCK;
 #define GPS_TX_PIN PIN_SERIAL1_TX
 
 // Battery
-// The battery sense is hooked to pin A0 (5)
+// The battery sense is hooked to pin A6 (0.29)
 #define BATTERY_PIN PIN_A0
 // and has 12 bit resolution
 #define BATTERY_SENSE_RESOLUTION_BITS 12
