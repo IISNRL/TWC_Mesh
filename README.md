@@ -37,6 +37,13 @@ The project encompasses several dimensions:
 ## Contributing
 We welcome contributions from the community. Please read our CONTRIBUTING.md file for details on how to submit pull requests, the process for submitting bugs, and other ways you can contribute to the project.
 
+### Contributors:  
+[cclljj](https://github.com/cclljj)  
+[Sean](https://github.com/SCWhite)  
+[Black_block](https://github.com/johnson1205)  
+[Jia-Huang Weng](https://github.com/wengjiahuang0529)  
+
+
 ## License
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
 
