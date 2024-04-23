@@ -81,12 +81,13 @@ static const uint8_t AREF = PIN_AREF;
 #define PIN_SPI_SCK (0 + 14)  // SCK       P0.14
 
 
-static const uint8_t SS = (0 + 6); // LORA_CS   P0.06
+static const uint8_t SS = (0 + 6); // LORA_CS   P0.6
 static const uint8_t MOSI = PIN_SPI_MOSI;
 static const uint8_t MISO = PIN_SPI_MISO;
 static const uint8_t SCK = PIN_SPI_SCK;
 
 
+////#define USE_EINK
 #define USE_SSD1306
 
 /*
@@ -97,6 +98,7 @@ static const uint8_t SCK = PIN_SPI_SCK;
 #define PIN_WIRE_SDA (0 + 12) // SDA     P0.12
 #define PIN_WIRE_SCL (0 + 11) // SCL     P0.11
 
+// NiceRF 868 LoRa module
 #define USE_SX1262
 #define USE_LLCC68
 
